@@ -16,7 +16,7 @@ public class App {
 
             System.out.print("Digite um numero inteiro: ");
 
-            if (!scanner.hasNextInt()) {
+            if (!scanner.hasNextInt()) { // se o usuario digitar algo que não seja um numero inteiro, o programa vai pedir para digitar novamente
                 System.out.println("Informaçoes invalidas. Digite numero valido!");
                 scanner.next();
 
