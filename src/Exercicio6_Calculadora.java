@@ -8,13 +8,12 @@ public class Exercicio6_Calculadora {
         System.out.println("Bem vindo à calculatora!");
 
         while (true) {
-            System.out.println("Escolha a operação desejada:");
+            System.out.println("\n" + "Escolha a operação desejada:");
             System.out.println("1 - Adição");
             System.out.println("2 - Subtração");
             System.out.println("3 - Multiplicação");
             System.out.println("4 - Divisão");
             System.out.println("0 - Sair");
-
             System.out.print("Digite a opção desejada: ");
             int opcao = scanner.nextInt();
 
@@ -69,7 +68,6 @@ public class Exercicio6_Calculadora {
                     if (num2 != 0) {
                         resultado = num1 / num2;
                         System.out.println("Resultado da divisão: " + resultado);
-                        // mostrarResultado(resultado);
                     } else {
                         System.out.println("Erro: Divisão por zero não é permitida!");
                     }
