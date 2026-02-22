@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class exercicio3 {
+public class Exercicio3_SegSenha {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); // codigo padrão para capitura do teclado
 

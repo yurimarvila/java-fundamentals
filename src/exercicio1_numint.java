@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class exercicio1 {
+public class exercicio1_numint{
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); // codigo padrão para capitura do teclado
 

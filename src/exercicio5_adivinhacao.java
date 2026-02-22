@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class exercicio5 {
+public class exercicio5_adivinhacao {
 
     private static Random geracaoRandom = new Random();
 
