@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
-public class exercicio4_temperatura {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in); // codigo padrão para capitura do teclado
+public class Temperatura {
+    public static void executar(Scanner scanner) {
 
         try {
             System.out.print("Digite á temperatura atual em Celsius: ");
@@ -24,10 +23,7 @@ public class exercicio4_temperatura {
             double tempkelvin = temperatura + 273.15; // fórmula de conversão de Celsius para Kelvin
             System.out.println("Temperatura em Kelvin: " + tempkelvin + "K");
 
-            scanner.close();
-
         } finally {
-            scanner.close();
         }
     }
 }

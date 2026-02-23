@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
-public class exercicio2_taboada {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in); // codigo padrão para capitura do teclado
+public class Taboada {
+    public static void executar(Scanner scanner) {
 
         try {
 
@@ -30,8 +29,6 @@ public class exercicio2_taboada {
             System.out.println(tabuada);
         } finally {
         }
-
-        scanner.close();
     }
 
 }

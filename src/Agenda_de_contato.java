@@ -1,9 +1,8 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class exercicio7_agendadecontato {
-    public static void main(String[] args) { // Método principal do programa
-        Scanner scanner = new Scanner(System.in); // Cria um objeto Scanner para ler a entrada do usuário
+public class Agenda_de_contato {
+    public static void executar(Scanner scanner) {
         ArrayList<String> contatos = new ArrayList<>(); // Cria uma lista para armazenar os contatos
 
         System.out.println("Bem-vindo à Agenda de Contatos!");

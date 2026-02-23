@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
-public class Exercicio3_SegSenha {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in); // codigo padrão para capitura do teclado
+public class Seguranca_Senha {
+    public static void executar(Scanner scanner) {
 
             System.out.print("Digite uma senha:");
             String password = scanner.nextLine();
@@ -34,7 +33,5 @@ public class Exercicio3_SegSenha {
                 break;
             }
         }
-
-        scanner.close();
     }
 }

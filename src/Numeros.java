@@ -1,9 +1,8 @@
 import java.util.Scanner;
 
-public class exercicio1_numint{
+public class Numeros{
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in); // codigo padrão para capitura do teclado
+    public static void executar(Scanner scanner) {
 
         // Lendo uma string - pegando a informação (system.out)
         System.out.print("Digite seu nome: ");
@@ -53,8 +52,6 @@ public class exercicio1_numint{
             System.out.println(resultado);
         } finally {
         }
-
-        scanner.close();
     }
 
 }

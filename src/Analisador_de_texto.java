@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
-public class exercicio8_analisadordetexto {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+public class Analisador_de_texto {
+    public static void executar(Scanner sc) {
 
         System.out.println("Bem-vindo ao Analisador de Texto!");
 
@@ -57,6 +56,5 @@ public class exercicio8_analisadordetexto {
             System.out.println("A letra " + letra + " aparece " + contagem + " vezes no texto.");
 
         }
-        sc.close();
     }
 }

@@ -1,9 +1,8 @@
 import java.util.Scanner;
 
-public class Exercicio6_Calculadora {
+public class Calculadora {
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in); // codigo padrão para capitura do teclado
+    public static void executar(Scanner scanner) {
 
         System.out.println("Bem vindo à calculatora!");
 
