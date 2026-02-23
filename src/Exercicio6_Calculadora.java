@@ -14,6 +14,7 @@ public class Exercicio6_Calculadora {
             System.out.println("3 - Multiplicação");
             System.out.println("4 - Divisão");
             System.out.println("0 - Sair");
+            
             System.out.print("Digite a opção desejada: ");
             int opcao = scanner.nextInt();
 
