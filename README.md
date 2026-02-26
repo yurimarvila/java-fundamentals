@@ -136,4 +136,7 @@ git clone https://github.com/seu-usuario/estudos-java.git
 
 ## 👨‍💻 Autor
 
-**Yuri** — estudante de Ciência da Computação com foco em desenvolvimento back-end Java.
+**Yuri Fernandes Marvila** — estudante de Ciência da Computação, focado em desenvolvimento back-end com Java e Spring Boot.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Yuri_Fernandes-blue)](https://www.linkedin.com/in/yuri-fernandes-marvila)
+[![GitHub](https://img.shields.io/badge/GitHub-yurimarvila-black)](https://github.com/yurimarvila)
