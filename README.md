@@ -12,7 +12,7 @@ Construir uma base sólida em Java antes de avançar para Orientação a Objetos
 
 ## 🛠️ Tecnologias
 
-- Java 8 (OpenJDK - Red Hat)
+- Java 25 LTS
 - Visual Studio Code
 - Extension Pack for Java (Microsoft)
 
